@@ -1,0 +1,48 @@
+
+*{
+
+
+    margin: 0 auto;
+    
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+  header{
+    font-size: 25px;
+  }
+  h1{
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  @property --num {
+    syntax: '<integer>';
+    initial-value: 0;
+    inherits: false;
+}
+.hr_default{border-top: 2px solid black;}
+
+
+
+::-webkit-scrollbar {
+  background-color: rgb(255, 254, 254);
+  width: 12px;
+  border-radius: 10px;
+}
+
+#scrollbar5::-webkit-scrollbar-track {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(34, 23, 23, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to top, #a5b4fc,#787af7);
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
