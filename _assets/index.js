@@ -1,15 +1,10 @@
 var toggleBtn = document.getElementById('toggle');
 var collapseMenu = document.getElementById('collapseMenu');
-
 function handleClick() {
-    if (collapseMenu.style.display === 'block') {
+if (collapseMenu.style.display === 'block') {
         collapseMenu.style.display = 'none';
-    } else {
+} else {
         collapseMenu.style.display = 'block';
-    }
 }
-
+}
 toggleBtn.addEventListener('click', handleClick);
-
-
-
